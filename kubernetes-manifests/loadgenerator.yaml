@@ -34,7 +34,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: server
-        image: loadgenerator:v1
+        image: rejuaws/loadgenerator:v1
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"

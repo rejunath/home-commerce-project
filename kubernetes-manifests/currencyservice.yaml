@@ -31,7 +31,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: currenyservice:v1
+        image: rejuaws/currenyservice:v1
         ports:
         - name: grpc
           containerPort: 7000

@@ -31,7 +31,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: server
-        image: productcatalogservice:v1
+        image: rejuaws/productcatalogservice:v1
         ports:
         - containerPort: 3550
         env:
